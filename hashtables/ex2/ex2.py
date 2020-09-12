@@ -19,10 +19,5 @@ def reconstruct_trip(tickets, length):
             storage[ticket.source] = ticket.destination
     for x in storage:
         route.append(storage[route[len(route)-1]])
-
-    print("--|Storage|--")
-    print(storage)
-    print("--|Route|--")
-    print(route)
     return route
 

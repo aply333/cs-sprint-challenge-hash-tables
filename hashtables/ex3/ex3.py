@@ -4,9 +4,10 @@ def intersection(arrays):
     """
     # Your code here
     storage = {}
+    base = arrays[0]
     result = []
-    for x in arrays:
-        storage[x] = arrays[x] 
+    for x in base:
+        storage[x] = arrays[x]
 
     print(storage)
     return result

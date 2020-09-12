@@ -9,8 +9,7 @@ def finder(files, queries):
     # Your code here
     storage = {}
     result = []
-    for x in files:
-        
+    for x in files:  
         storage[x] = x
     for y in queries:
         if y in storage:

@@ -7,7 +7,11 @@ def finder(files, queries):
     YOUR CODE HERE
     """
     # Your code here
-
+    result = []
+    for x in files:
+        for y in queries:
+            if y in x:
+                result.append(x)
     return result
 
 

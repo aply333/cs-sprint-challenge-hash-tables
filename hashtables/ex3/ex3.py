@@ -3,7 +3,12 @@ def intersection(arrays):
     YOUR CODE HERE
     """
     # Your code here
+    storage = {}
+    result = []
+    for x in arrays:
+        storage[x] = arrays[x] 
 
+    print(storage)
     return result
 
 

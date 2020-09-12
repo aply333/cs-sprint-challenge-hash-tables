@@ -7,11 +7,14 @@ def finder(files, queries):
     YOUR CODE HERE
     """
     # Your code here
+    storage = {}
     result = []
     for x in files:
-        for y in queries:
-            if y in x:
-                result.append(x)
+        
+        storage[x] = x
+    for y in queries:
+        if y in storage:
+            print("yes")
     return result
 
 
